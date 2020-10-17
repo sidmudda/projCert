@@ -1,7 +1,7 @@
 ---
 - hosts: webservers 
   become: yes
-  become_user: root
+  become_user: sidhu
   tasks:
 #### Install git
     - name: install git
