@@ -16,7 +16,7 @@
 #### copy chromedriver
     - name: chromedriver
       copy:
-        src: /root/chromedriver
+        src: chromedriver
         dest: /root
 #### Install Chromium Browser
     - name: install chromium browser
