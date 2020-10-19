@@ -13,6 +13,11 @@
       package:
         name: openjdk-8-jdk
         state: present
+#### Install Maven
+    - name: install maven
+      package:
+        name: maven
+        state: present
 #### copy chromedriver
     - name: chromedriver
       copy:
